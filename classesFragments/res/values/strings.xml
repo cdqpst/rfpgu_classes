@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">РФ ПГУ</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="menu_next_week">След. неделя</string>
+    <string name="settings">Настройки</string>
+    <string name="share">Рассказать</string>
+    <string name="refresh">Обновить</string>
+    <string name="group">Группа</string>
+    <string name="group_sum">Выберите свою группу в списке, если вы являетесь студентом</string>
+    <string name="standing">Квалификация</string>
+    <string name="standing_sum">Выберите положение в университете</string>
+    <string name="teacher">Преподаватель</string>
+    <string name="teacher_sum">Выберите себя в списке, если вы являетесь преподавателем</string>
+    <string name="share">Рассказать друзьям</string>
+    <string name="share_body">Расписание занятий РФ ПГУ http://vk.com/rf</string>
+    <string name="dialog_settings_bt_teacher">Преподаватель</string>
+    <string name="dialog_settings_bt_student">Студент</string>
+    <string name="dialog_settings_title">Настройки пользователя</string>
+    <string name="dialog_settings_content">Выберите своё положение в университете. При ошибке на данном этапе вы сможете сменить своё положение в настройках.</string>
+    <string name="dialog_download_error_desc">Возникла ошибка при загрузке данных, возможно отсутствует соединение с сетью</string>
+    <string name="dialog_download_error_title">Ошибка</string>
+    <string name="dialog_download_error_exit">Выход</string>
+    <string name="dialog_download_error_replace">Повторить попытку</string>
+
+    <string-array name="left_menu">
+        <item>Для студентов</item>
+        <item>Для преподавателей</item>
+        <item>Cлед. неделя</item>
+    </string-array>
+
+    <string-array name="group_list">
+        <item>101</item>
+    </string-array>
+
+    <string-array name="teacher_values">
+        <item>1</item>
+    </string-array>
+
+    <string-array name="standing_list">
+        <item>Студент</item>
+        <item>Преподаватель</item>
+    </string-array>
+
+    <string-array name="standing_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

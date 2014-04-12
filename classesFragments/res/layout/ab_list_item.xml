@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ru.rfpgu.classes.MyTextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@android:id/text1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="#FFF"
+          android:textSize="@dimen/ab_item_text_size"
+          android:background="@android:color/transparent"
+          android:gravity="center_horizontal"
+          android:paddingTop="7dp"
+          android:paddingBottom="4dp"
+          android:paddingLeft="4dp"
+        />

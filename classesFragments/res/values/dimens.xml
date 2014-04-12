@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="days">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </array>
+    <dimen name="tv_margin_left">5dp</dimen>
+    <dimen name="iv_margin_left">7dp</dimen>
+    <dimen name="tv_padding">10dp</dimen>
+    <dimen name="tv_padding_top">4dp</dimen>
+    <dimen name="tv_text_size">25sp</dimen>
+    <dimen name="tv_subject_size">35sp</dimen>
+    <dimen name="dialog_setting_padding">20dp</dimen>
+    <dimen name="dialog_setting_btn_width">220dp</dimen>
+    <dimen name="item_text_size">28sp</dimen>
+    <dimen name="ab_item_text_size">20sp</dimen>
+</resources>

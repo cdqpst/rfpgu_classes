@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:padding="@dimen/dialog_setting_padding">
+
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:id="@+id/dialog_choice_lv"
+            android:scrollbars="none"/>
+            <!--android:cacheColorHint="@android:color/transparent"-->
+            <!--android:listSelector="@android:color/transparent"-->
+            <!--/>-->
+</RelativeLayout>

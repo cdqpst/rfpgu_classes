@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/settings">
+
+        <ListPreference
+                android:entries="@array/group_list"
+                android:entryValues="@array/group_list"
+                android:key="group"
+                android:summary="@string/group_sum"
+                android:title="@string/group" />
+
+        <ListPreference
+                android:entries="@array/teacher_values"
+                android:entryValues="@array/teacher_values"
+                android:key="teacher"
+                android:summary="@string/teacher_sum"
+                android:title="@string/teacher" />
+
+        <ListPreference
+                android:entries="@array/standing_list"
+                android:entryValues="@array/standing_values"
+                android:key="standing"
+                android:summary="@string/standing_sum"
+                android:title="@string/standing" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

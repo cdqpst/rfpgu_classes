@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+    <ru.rfpgu.classes.MyTextView
+            android:id="@+id/tv_subject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="@dimen/tv_padding_top"
+            android:paddingBottom ="@dimen/tv_padding"
+            android:paddingRight="@dimen/tv_padding"
+            android:paddingLeft="@dimen/tv_padding"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tv_subject_size"/>
+
+    <ImageView
+            android:id="@+id/iv_teacher"
+            android:contentDescription="@string/app_name"
+            android:layout_below="@+id/tv_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/iv_margin_left"
+            android:src="@drawable/ic_lesson_teacher" />
+    <ru.rfpgu.classes.MyTextView
+            android:id="@+id/tv_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_subject"
+            android:layout_toRightOf="@+id/iv_teacher"
+            android:textSize="@dimen/tv_text_size"
+            android:textColor="@android:color/black"
+            android:paddingTop="@dimen/tv_padding_top"
+            android:layout_marginLeft="@dimen/tv_margin_left"/>
+
+    <ImageView
+            android:id="@+id/iv_auditory"
+            android:contentDescription="@string/app_name"
+            android:layout_below="@+id/iv_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/iv_margin_left"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_lesson_auditory" />
+    <ru.rfpgu.classes.MyTextView
+            android:id="@+id/tv_auditory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/tv_padding_top"
+            android:layout_below="@+id/iv_teacher"
+            android:textSize="@dimen/tv_text_size"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@+id/iv_auditory"
+            android:layout_marginLeft="@dimen/tv_margin_left"/>
+
+
+    <ImageView
+            android:id="@+id/iv_lesson"
+            android:contentDescription="@string/app_name"
+            android:layout_below="@+id/tv_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_lesson_num"
+            android:src="@drawable/ic_num_classes" />
+
+    <ru.rfpgu.classes.MyTextView
+            android:id="@+id/tv_lesson_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_teacher"
+            android:paddingTop="@dimen/tv_padding_top"
+            android:textSize="@dimen/tv_text_size"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="10dp"/>
+
+</RelativeLayout> 

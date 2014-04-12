@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:icon">@drawable/ic_menu</item>
+        <!--<item name="android:background">@drawable/navigation_bg</item>-->
+        <item name="android:background">#6DDBF3</item>
+        <!--<item name="android:background">#6DF39F</item>-->
+    </style>
+
+    <style name="PreferencesTheme" parent="android:Theme.Light.NoTitleBar"/>
+
+</resources>
