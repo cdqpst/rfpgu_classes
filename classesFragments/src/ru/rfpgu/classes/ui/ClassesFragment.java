@@ -51,9 +51,7 @@ public class ClassesFragment extends Fragment {
             return;
         }
 
-//        listAdapter = new ArrayAdapter<ObjectModel.Classes>(getActivity(),android.R.layout.simple_list_item_1, objectsList);
         classesObjectAdapter = new ClassesObjectAdapter(getActivity(), R.layout.student_classes_item, objectsList);
-//        listViewClasses.setAdapter(listAdapter);
         listViewClasses.setAdapter(classesObjectAdapter);
     }
 
