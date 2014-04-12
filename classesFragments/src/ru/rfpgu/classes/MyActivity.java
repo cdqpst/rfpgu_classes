@@ -47,9 +47,6 @@ public class MyActivity extends ActionBarActivity {
         mainFragment = new MainFragment();
         getSupportFragmentManager().beginTransaction().add(R.id.content_frame, mainFragment, FRAGMENT_TAG).commit();
         mSettings = PreferenceManager.getDefaultSharedPreferences(this);
-//        syncDataBase = new SyncDataBase();
-//        syncDataBase.execute();
-//        new DownloadAllData().execute();
     }
 
     @Override
@@ -140,8 +137,6 @@ public class MyActivity extends ActionBarActivity {
             reloadFragment();
             progress.dismiss();
             if(serverRequestClasses == 200 && serverRequestTeachers == 200) {
-//                ConfigDialog configDialog = new ConfigDialog();
-//                configDialog.show(getSupportFragmentManager(), "dialog_settings");
                 mSettings.edit().putBoolean("first_run", false).commit();
                 showSettingsDialog();
             } else {
