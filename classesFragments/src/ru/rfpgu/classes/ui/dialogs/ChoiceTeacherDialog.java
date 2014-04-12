@@ -36,7 +36,6 @@ public class ChoiceTeacherDialog extends DialogFragment implements AdapterView.O
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-//        getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         getDialog().setTitle("Выберите себя из списка");
         getDialog().setCanceledOnTouchOutside(false);
 

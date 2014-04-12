@@ -40,9 +40,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e6a6301-3344-4c31-9d39-5dcb921df1e7" name="Default" comment="Change sdk version&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/read" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/rfpgu/classes/MyActivity.java" afterPath="$PROJECT_DIR$/src/ru/rfpgu/classes/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/rfpgu/classes/ui/dialogs/ChoiceTeacherDialog.java" afterPath="$PROJECT_DIR$/src/ru/rfpgu/classes/ui/dialogs/ChoiceTeacherDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/rfpgu/classes/ui/TeacherFragment.java" afterPath="$PROJECT_DIR$/src/ru/rfpgu/classes/ui/TeacherFragment.java" />
     </list>
     <ignored path="classes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,7 +131,7 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/rfpgu/classes/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="5" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-0.98242813" vertical-offset="1035" max-vertical-offset="3240">
+            <state line="49" column="5" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.6709265" vertical-offset="0" max-vertical-offset="3240">
               <folding>
                 <element signature="e#6863#6927#0" expanded="true" />
                 <element signature="e#7834#7890#0" expanded="true" />
@@ -160,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/rfpgu/classes/ui/dialogs/ChoiceTeacherDialog.java" />
         <option value="$PROJECT_DIR$/res/layout/dialog_settings.xml" />
         <option value="$PROJECT_DIR$/src/ru/rfpgu/classes/MyTextView.java" />
         <option value="$PROJECT_DIR$/res/layout/group_item.xml" />
@@ -176,6 +174,8 @@
         <option value="$PROJECT_DIR$/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/res/layout/ab_list_item.xml" />
         <option value="$PROJECT_DIR$/src/ru/rfpgu/classes/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/ru/rfpgu/classes/ui/dialogs/ChoiceTeacherDialog.java" />
+        <option value="$PROJECT_DIR$/src/ru/rfpgu/classes/ui/TeacherFragment.java" />
       </list>
     </option>
   </component>
@@ -966,13 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/rfpgu/classes/ui/dialogs/ChoiceTeacherDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="74" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.06549521" vertical-offset="244" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/rfpgu/classes/ui/MainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="193" column="110" selection-start="8137" selection-end="8137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -980,9 +973,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/rfpgu/classes/ui/dialogs/ChoiceGroupDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="832" selection-end="832" vertical-scroll-proportion="0.27317882" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/rfpgu/classes/ui/dialogs/ChoiceTeacherDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="56" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.06549521" vertical-offset="244" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/rfpgu/classes/ui/TeacherFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="50" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.5872757" vertical-offset="270" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/rfpgu/classes/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-0.98242813" vertical-offset="1035" max-vertical-offset="3240">
+        <state line="49" column="5" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.6709265" vertical-offset="0" max-vertical-offset="3240">
           <folding>
             <element signature="e#6863#6927#0" expanded="true" />
             <element signature="e#7834#7890#0" expanded="true" />
